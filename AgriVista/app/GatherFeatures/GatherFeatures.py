@@ -88,6 +88,7 @@ def GatherFeatures(page:ft.Page):
             style=ft.ButtonStyle(
                 shape=ft.RoundedRectangleBorder(radius=30),
             ),
+            on_click=lambda e: page.go("/home")
         ),
     ])
     form = ft.Container(
