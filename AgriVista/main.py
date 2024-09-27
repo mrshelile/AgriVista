@@ -49,17 +49,53 @@
 
 # ft.app(main)
 
+# import flet as ft
+# from app.OnBoarding.Onboarding import  Onboarding
+# def main(page: ft.Page):
+
+#     page.title = "AgriVista"
+
+#     col = Onboarding(page)
+#     page.add(col)
+#     page.update()
+
+# ft.app(main)
+from app.GatherFeatures.GatherFeatures import GatherFeatures
+from app.OnBoarding.Onboarding import  Onboarding
+from constants.colors import *
 import flet as ft
-from app.OnBoarding import Onboarding
+
 def main(page: ft.Page):
-
     page.title = "AgriVista"
-    onboarding = Onboarding.OnBoarding(page).Onboarding()
 
+    def route_change(route):
+        page.views.clear()
+        page.views.append(
+            ft.View(
+                "/",
+                Onboarding(page),   
+                bgcolor=ft.colors.CYAN_700
+            )
+        )
     
-    page.add(
-        onboarding
-    )
-    page.update()
+        if page.route == "/gatherFeatures":
+            page.views.append(
+                ft.View(
+                    "/gatherFeatures",
+                    GatherFeatures(page),
+                    bgcolor=ft.colors.WHITE
+                )
+            )
+        page.update()
 
-ft.app(main)
+    def view_pop(view):
+        page.views.pop()
+        top_view = page.views[-1]
+        page.go(top_view.route)
+
+    page.on_route_change = route_change
+    page.on_view_pop = view_pop
+    page.go(page.route)
+
+
+ft.app(main,)
