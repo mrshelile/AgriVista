@@ -1,0 +1,64 @@
+import pandas as pd
+import numpy as np
+
+# Define periods (months)
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+# Socio-economic classes
+classes = ['Working Class', 'Middle Class', 'Upper Class']
+
+# Seasonal adjustment factors for demand
+seasonal_factors = {
+    'Spring': 1.2,  # March, April, May
+    'Summer': 1.0,  # June, July, August
+    'Autumn': 0.9,  # September, October, November
+    'Winter': 1.1   # December, January, February
+}
+
+# Mapping months to seasons
+seasons = {
+    'Jan': 'Winter', 'Feb': 'Winter', 'Mar': 'Spring', 'Apr': 'Spring', 'May': 'Spring',
+    'Jun': 'Summer', 'Jul': 'Summer', 'Aug': 'Summer', 'Sep': 'Autumn', 'Oct': 'Autumn',
+    'Nov': 'Autumn', 'Dec': 'Winter'
+}
+
+# Create a dataframe for dummy data
+data = []
+
+# Simulated prices and costs (Maloti per tonne or per km)
+local_market_price = {'Spinach': 1000, 'Cabbage': 800, 'Tomatoes': 1200, 'Onions': 700, 'Potatoes': 600}
+export_market_price = {'Spinach': 2000, 'Cabbage': 1600, 'Tomatoes': 2400, 'Onions': 1400, 'Potatoes': 1200}
+storage_cost = 100  # Maloti per month
+transport_cost_per_km = 5  # Maloti per km
+
+# Simulate demand for each class and crop type
+np.random.seed(42)
+
+for month in months:
+    season = seasons[month]
+    seasonal_factor = seasonal_factors[season]
+    
+    for crop in local_market_price.keys():
+        for soc_class in classes:
+            # Generate random demand in tonnes for local and export markets
+            local_demand = np.random.uniform(50, 200) * seasonal_factor
+            export_demand = np.random.uniform(30, 150) * seasonal_factor
+            
+            # Calculate revenue
+            local_revenue = local_demand * local_market_price[crop]
+            export_revenue = export_demand * export_market_price[crop]
+            
+            # Calculate costs
+            local_costs = storage_cost + (transport_cost_per_km * np.random.uniform(100, 500))
+            export_costs = storage_cost + (transport_cost_per_km * np.random.uniform(500, 2000))
+            
+            # Append data for local and export market
+            data.append([month, season, crop, soc_class, 'Local', local_demand, local_market_price[crop], local_revenue, local_costs])
+            data.append([month, season, crop, soc_class, 'Export', export_demand, export_market_price[crop], export_revenue, export_costs])
+
+# Convert data to DataFrame
+columns = ['Month', 'Season', 'Crop', 'Class', 'Market', 'Demand (tonnes)', 'Price (Maloti/tonne)', 'Revenue (Maloti)', 'Total Costs (Maloti)']
+df = pd.DataFrame(data, columns=columns)
+
+df.head()  # Display first few rows of the dummy data
+

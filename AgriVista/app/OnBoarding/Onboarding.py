@@ -15,7 +15,7 @@ def Onboarding(page:ft.Page):
     )
     img = ft.Image(
         fit=ft.ImageFit.COVER,
-        src=f'https://i.ibb.co/cTj1vqv/farming-concept-with-farmer-harvest-23-2148438599.png')
+        src=f'https://i.ibb.co/Ycm0SyT/removal-ai-40155078-242f-4d07-b8c8-4bd345e10eed-stronger-together-1-0-2456105835.png')
     img = ft.Container(
         content=img,
         margin=ft.margin.only(left=20),
@@ -29,6 +29,7 @@ def Onboarding(page:ft.Page):
         text_intro,
         ft.Container(height=10),
         img,
+        ft.Container(height=30),
         ft.Row(
             controls=[
             ft.Container(width=90),
