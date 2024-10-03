@@ -1,6 +1,6 @@
 import flet as ft
 
-def CropInfo(page:ft.Page):
+def CropInfo(page:ft.Page,margin,changes):
     width = 180
     height = 230
     body = ft.Row(
@@ -24,7 +24,7 @@ def CropInfo(page:ft.Page):
                             ),
                        ft.Container(
                             margin=ft.margin.only(left=20),
-                            content=ft.Text("40%",size=18),
+                            content=ft.Text(f"{margin}%",size=18),
                             ),
                     ]
                 )
@@ -47,7 +47,7 @@ def CropInfo(page:ft.Page):
                             ),
                        ft.Container(
                             margin=ft.margin.only(left=20),
-                            content=ft.Text("20%",size=18),
+                            content=ft.Text(f"{changes}%",size=18),
                             ),
                     ]
                 )

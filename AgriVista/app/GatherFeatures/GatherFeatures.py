@@ -1,4 +1,6 @@
 import flet as ft
+import numpy as np
+from model.crop_prediction import CropPrediction
 
 def GatherFeatures(page:ft.Page):
 
@@ -10,6 +12,18 @@ def GatherFeatures(page:ft.Page):
     #             repeat=ft.ImageRepeat.NO_REPEAT,
     #             border_radius=ft.border_radius.all(30),
     #         )
+    async def evalutate(e):
+       
+        input_values = np.array([[17.8,682,float(ph.value),67.4,9,1,int(soil_type.value)]])
+        print(ph.value)
+        model = CropPrediction()
+        await model.load_model()
+        await model.make_prediction(input_values)
+        # print(model.top_3_crops)
+        if model.top_3_crops:
+            page.session.set("top_3_crops", model.top_3_crops)
+            page.go("/home")
+        
     logo = ft.Image(
                 src=f"https://i.ibb.co/7K3hpfZ/logo.png",
                 width=None,
@@ -34,15 +48,12 @@ def GatherFeatures(page:ft.Page):
                     height=None,
                     border_radius=10,
                 )
-    
-    form = ft.ListView(
-        controls=[
-        ft.TextField(
+    ph =ft.TextField(
+            keyboard_type=ft.KeyboardType.NUMBER,
             prefix_icon=ft.icons.SCALE, 
             prefix_style = ft.TextStyle(bgcolor=ft.colors.CYAN_500),
             label="Enter Soil PH Level",
             label_style=ft.TextStyle(color=ft.colors.CYAN_500),
-        
             text_size=15,
             height=70,
             # cursor_color=ft.colors.RED,
@@ -60,14 +71,11 @@ def GatherFeatures(page:ft.Page):
             # focused_border_color=ft.colors.GREEN_ACCENT_400,
             # max_length=10,
             # capitalization="characters",
-        ),
-        ft.Container(
-        height=50
-        ),
-        ft.Dropdown(
+        )
+    soil_type = ft.Dropdown(
             options=[
-                ft.dropdown.Option("Loam", "Loam"),
-                ft.dropdown.Option("Sandy loam", "Sandy loam"),
+                ft.dropdown.Option(0, "Loam"),
+                ft.dropdown.Option(1, "Sandy loam"),
                 # ft.dropdown.Option("c", "Item C"),
             ],
             label="Choose Soil Type",
@@ -82,13 +90,21 @@ def GatherFeatures(page:ft.Page):
             
             prefix_icon=ft.icons.ENERGY_SAVINGS_LEAF, 
             # focused_bgcolor=ft.colors.BLUE_100,
+        )
+    form = ft.ListView(
+        controls=[
+        ph,
+        ft.Container(
+        height=50
         ),
+        soil_type,
          ft.FilledButton(
             "Evalutate",
             style=ft.ButtonStyle(
                 shape=ft.RoundedRectangleBorder(radius=30),
             ),
-            on_click=lambda e: page.go("/home")
+            on_click=evalutate
+            # on_click=lambda e: page.go("/home")
         ),
     ])
     form = ft.Container(

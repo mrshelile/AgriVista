@@ -60,53 +60,53 @@
 # #     page.update()
 
 # # ft.app(main)
-# from app.GatherFeatures.GatherFeatures import GatherFeatures
-# from app.OnBoarding.Onboarding import  Onboarding
-# from constants.colors import *
-# from app.home.home import home
-# import flet as ft
+from app.GatherFeatures.GatherFeatures import GatherFeatures
+from app.OnBoarding.Onboarding import  Onboarding
+from constants.colors import *
+from app.home.home import home
+import flet as ft
 
-# def main(page: ft.Page):
-#     page.title = "AgriVista"
+def main(page: ft.Page):
+    page.title = "AgriVista"
 
-#     def route_change(route):
-#         page.views.clear()
-#         page.views.append(
-#             ft.View(
-#                 "/",
-#                 Onboarding(page),   
-#                 bgcolor=ft.colors.CYAN_700
-#             )
-#         )
+    def route_change(route):
+        page.views.clear()
+        page.views.append(
+            ft.View(
+                "/",
+                Onboarding(page),   
+                bgcolor=ft.colors.CYAN_700
+            )
+        )
      
-#         if page.route == "/gatherFeatures":
-#             page.views.append(
-#                 ft.View(
-#                     "/gatherFeatures",
-#                     GatherFeatures(page),
-#                     bgcolor=ft.colors.WHITE
-#                 )
-#             )
-#         if page.route == "/home":
-#             page.views.append(
-#                 ft.View(
-#                     "/home",
-#                     home(page),
-#                     bgcolor=ft.colors.WHITE
-#                 )
-#             )
-#         page.update()
+        if page.route == "/gatherFeatures":
+            page.views.append(
+                ft.View(
+                    "/gatherFeatures",
+                    GatherFeatures(page),
+                    bgcolor=ft.colors.WHITE
+                )
+            )
+        if page.route == "/home":
+            page.views.append(
+                ft.View(
+                    "/home",
+                    home(page),
+                    bgcolor=ft.colors.WHITE
+                )
+            )
+        page.update()
 
-#     def view_pop(view):
-#         page.views.pop()
-#         top_view = page.views[-1]
-#         page.go(top_view.route)
+    def view_pop(view):
+        page.views.pop()
+        top_view = page.views[-1]
+        page.go(top_view.route)
 
-#     page.on_route_change = route_change
-#     page.on_view_pop = view_pop
-#     page.go(page.route)
+    page.on_route_change = route_change
+    page.on_view_pop = view_pop
+    page.go(page.route)
 
-# ft.app(main,)
+ft.app(main,)
 
 # import flet as ft
 # import h5py
@@ -183,3 +183,68 @@
 
 # ft.app(target=main)
     
+# import flet as ft
+# from geopy.geocoders import Nominatim
+
+# def main(page: ft.Page):
+
+#     # Function to handle reverse geocoding
+#     def reverse_geocode(latitude, longitude):
+#         try:
+#             geoLoc = Nominatim(user_agent="GetLoc")
+#             locname = geoLoc.reverse(f"{latitude}, {longitude}")
+#             return locname.address
+#         except Exception as e:
+#             return f"Error: {e}"
+
+#     # Event handler when the button is clicked
+#     def get_location(e):
+#         latitude = lat_input.value
+#         longitude = lon_input.value
+
+#         if latitude and longitude:
+#             address = reverse_geocode(latitude, longitude)
+#             result_text.value = f"Location: {address}"
+#         else:
+#             result_text.value = "Please enter valid coordinates"
+        
+#         page.update()
+
+#     # Input fields for latitude and longitude
+#     lat_input = ft.TextField(label="Latitude", value="26.7674446")
+#     lon_input = ft.TextField(label="Longitude", value="81.109758")
+#     result_text = ft.Text("Location will appear here")
+
+#     # Button to trigger geocoding
+#     get_location_button = ft.ElevatedButton("Get Location", on_click=get_location)
+
+#     # Add UI elements to the page
+#     page.add(lat_input, lon_input, get_location_button, result_text)
+
+# # Run the Flet app
+# ft.app(target=main)
+# import flet as ft
+# import requests
+# from geopy.geocoders import Nominatim
+
+# def main(page: ft.Page):
+#     # ... (rest of the code remains the same)
+
+#     # Get current location
+#     def get_current_location(e):
+#         response = requests.get('https://ipapi.co/json/')
+#         data = response.json()
+#         latitude = data['latitude']
+#         longitude = data['longitude']
+#         # lat_input.value = str(latitude)
+#         # lon_input.value = str(longitude)
+#         print(latitude)
+#         print(longitude)
+#         page.update()
+
+#     # Add a button to get current location
+#     get_current_location_button = ft.ElevatedButton("Get Current Location", on_click=get_current_location)
+#     page.add(get_current_location_button)
+
+# # Run the Flet app
+# ft.app(target=main)

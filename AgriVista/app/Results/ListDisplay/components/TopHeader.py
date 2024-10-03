@@ -1,6 +1,6 @@
 import flet as ft
 # https://i.ibb.co/5jwXSDf/Spinach.jpg
-def TopHeader(page:ft.Page):
+def TopHeader(page:ft.Page,image):
     body = ft.Container(
         # image_src="",
         # bgcolor=ft.colors.BLUE_300,
@@ -9,6 +9,6 @@ def TopHeader(page:ft.Page):
         border_radius=ft.border_radius.only(40,40,0,0),
         content=ft.Image(
             fit=ft.ImageFit.COVER,
-            src="https://i.ibb.co/5jwXSDf/Spinach.jpg")
+            src=image)
         )
     return body
