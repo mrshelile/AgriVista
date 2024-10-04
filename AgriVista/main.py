@@ -1,65 +1,3 @@
-# # import flet as ft
-
-
-# # def main(page: ft.Page):
-# #     page.title = "Flet counter example"
-# #     page.vertical_alignment = ft.MainAxisAlignment.CENTER
-
-# #     txt_number = ft.TextField(value="0", text_align=ft.TextAlign.RIGHT, width=100)
-
-# #     def minus_click(e):
-# #         txt_number.value = str(int(txt_number.value) - 1)
-# #         page.update()
-
-# #     def plus_click(e):
-# #         txt_number.value = str(int(txt_number.value) + 1)
-# #         page.update()
-
-# #     page.add(
-# #         ft.Row(
-# #             [
-# #                 ft.IconButton(ft.icons.REMOVE, on_click=minus_click),
-# #                 txt_number,
-# #                 ft.IconButton(ft.icons.ADD, on_click=plus_click),
-# #             ],
-# #             alignment=ft.MainAxisAlignment.CENTER,
-# #         )
-# #     )
-
-
-# # ft.app(main)
-# # import flet as ft
-# # from app.OnBoarding import Onboarding
-
-# # def main(page: ft.Page):
-
-# #     page.title = "NavigationBar Example"
-# #     page.navigation_bar = ft.NavigationBar(
-# #         destinations=[
-# #             ft.NavigationBarDestination(icon=ft.icons.EXPLORE, label="Explore"),
-# #             ft.NavigationBarDestination(icon=ft.icons.COMMUTE, label="Commute"),
-# #             ft.NavigationBarDestination(
-# #                 icon=ft.icons.BOOKMARK_BORDER,
-# #                 selected_icon=ft.icons.BOOKMARK,
-# #                 label="Explore",
-# #             ),
-# #         ]
-# #     )
-# #     page.add(ft.Text("Body!"))
-
-# # ft.app(main)
-
-# # import flet as ft
-# # from app.OnBoarding.Onboarding import  Onboarding
-# # def main(page: ft.Page):
-
-# #     page.title = "AgriVista"
-
-# #     col = Onboarding(page)
-# #     page.add(col)
-# #     page.update()
-
-# # ft.app(main)
 from app.GatherFeatures.GatherFeatures import GatherFeatures
 from app.OnBoarding.Onboarding import  Onboarding
 from constants.colors import *
@@ -75,7 +13,7 @@ def main(page: ft.Page):
             ft.View(
                 "/",
                 Onboarding(page),   
-                bgcolor=ft.colors.CYAN_700
+                bgcolor=ft.colors.GREEN_200
             )
         )
      
@@ -189,13 +127,13 @@ ft.app(main,)
 # def main(page: ft.Page):
 
 #     # Function to handle reverse geocoding
-#     def reverse_geocode(latitude, longitude):
-#         try:
-#             geoLoc = Nominatim(user_agent="GetLoc")
-#             locname = geoLoc.reverse(f"{latitude}, {longitude}")
-#             return locname.address
-#         except Exception as e:
-#             return f"Error: {e}"
+    # def reverse_geocode(latitude, longitude):
+    #     try:
+    #         geoLoc = Nominatim(user_agent="GetLoc")
+    #         locname = geoLoc.reverse(f"{latitude}, {longitude}")
+    #         return locname.address
+    #     except Exception as e:
+    #         return f"Error: {e}"
 
 #     # Event handler when the button is clicked
 #     def get_location(e):
