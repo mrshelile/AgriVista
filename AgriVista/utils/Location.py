@@ -29,6 +29,7 @@ def get_city_name():
     city = location.raw['address'].get('city', '')
     
     return city
+
 async def get_city_and_village():
     latitude, longitude = get_current_location()
     geolocator = Nominatim(user_agent="GetLoc")

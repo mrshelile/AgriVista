@@ -1,0 +1,831 @@
+Year,Crop,Consumer Trend,Population Growth Rate (%),Economic Indicator (%),Projected Demand (Tons)
+2020,Cabbage,Medium,2.3,3.2,2500
+2020,Spinach,Medium,3.2,2.5,2606
+2020,Carrots,High,3.3,2.6,1325
+2020,Onions,Medium,2.8,3.8,1665
+2020,Tomatoes,Low,3.0,2.8,2271
+2020,Lettuce,High,2.0,2.9,2725
+2020,Broccoli,Low,2.7,1.9,2543
+2020,Cauliflower,Medium,2.5,2.3,2534
+2020,Peppers,High,2.6,2.0,2877
+2020,Eggplant,Low,1.8,3.5,2182
+2020,Zucchini,High,2.9,3.3,2869
+2020,Pumpkin,Medium,1.6,2.1,2768
+2020,Squash,Medium,2.4,1.8,2098
+2020,Radishes,Low,3.0,2.3,1750
+2020,Daikon Radish,Medium,2.3,3.7,2326
+2020,Turnips,High,2.4,2.7,2558
+2020,Kale,Low,2.2,3.1,2049
+2020,Swiss Chard,High,1.8,3.6,2263
+2020,Celery,Low,2.9,3.3,2740
+2020,Leeks,Medium,2.0,2.2,2649
+2020,Artichokes,Low,2.3,4.4,1713
+2020,Asparagus,Medium,2.4,1.7,1919
+2020,Bok Choy,High,3.5,2.5,1508
+2020,Brussels Sprouts,Medium,2.8,3.9,1160
+2020,Collard Greens,Medium,2.1,2.6,2060
+2020,Endive,High,2.9,4.4,1891
+2020,Fennel,Medium,1.5,2.6,2579
+2020,Garlic,Medium,2.1,4.5,2560
+2020,Horseradish,High,2.6,3.5,2120
+2020,Jicama,Medium,2.1,4.0,1971
+2020,Kohlrabi,High,1.8,4.3,1812
+2020,Okra,Medium,3.5,2.0,1013
+2020,Parsnips,Medium,2.3,4.3,2392
+2020,Rutabaga,Medium,2.2,1.5,2157
+2020,Scallions,Low,2.7,3.5,2733
+2020,Shallots,Low,2.2,3.3,2641
+2020,Snow Peas,High,2.1,4.4,2567
+2020,Snap Peas,Low,3.0,1.9,1176
+2020,Watercress,Medium,1.8,2.6,2229
+2020,Arugula,Medium,2.0,1.5,2400
+2020,Mustard Greens,Medium,1.7,3.4,1817
+2020,Purslane,Low,2.1,4.1,2051
+2020,Sorrel,Medium,1.7,2.4,1760
+2020,Tatsoi,Medium,2.2,3.0,1533
+2020,Mizuna,High,2.4,2.9,2125
+2020,Mibuna,Medium,3.3,1.8,2138
+2020,Celtuce,Medium,1.6,2.8,1828
+2020,Chinese Broccoli,Medium,3.3,1.6,2633
+2020,Chinese Cabbage,Low,1.7,3.4,2591
+2020,Napa Cabbage,High,3.4,4.2,2836
+2020,Amaranth Greens,Medium,3.5,4.1,2523
+2020,Malabar Spinach,Low,3.4,3.6,1223
+2020,New Zealand Spinach,Medium,2.4,3.0,2456
+2020,Water Spinach,Low,2.9,2.4,1761
+2020,Sweet Corn,Medium,1.6,1.9,2459
+2020,Bulgur,Medium,3.3,1.6,1326
+2020,Maize,High,3.2,3.9,1548
+2020,Sorghum,Medium,2.9,3.3,1626
+2020,Wheat,Low,2.7,2.0,1719
+2020,Barley,Low,2.0,2.1,1098
+2020,Millet,Medium,1.6,3.8,1618
+2020,Oats,Low,2.4,3.9,1548
+2020,Rye,Low,2.4,2.4,1422
+2020,Triticale,Low,2.1,4.2,1789
+2020,Quinoa,High,2.2,4.5,2558
+2020,Amaranth,High,3.4,3.1,2575
+2020,Buckwheat,Medium,1.8,3.1,1146
+2020,Spelt,Low,1.5,3.4,2841
+2020,Teff,Medium,1.6,2.8,1774
+2020,Fonio,Low,2.8,3.7,2773
+2020,Kañiwa,High,2.0,2.7,2498
+2020,Job’s Tears,High,2.8,4.3,1082
+2020,Wild Rice,High,3.4,1.9,1055
+2020,Einkorn,High,1.8,4.1,1411
+2020,Green Luobo,Low,2.8,2.4,2177
+2020,Beans,Low,2.9,3.9,1536
+2020,Peas,Low,2.3,4.2,1483
+2020,Lentils,Low,1.8,2.5,2670
+2020,Chickpeas,High,1.6,2.6,1977
+2020,Soybeans,High,2.8,3.8,1407
+2020,Cowpeas,Medium,3.1,3.7,1028
+2020,Pigeon Peas,Medium,3.5,4.1,1669
+2020,Lupins,Low,3.1,2.6,2470
+2020,Mung Beans,Medium,1.5,2.2,1988
+2020,Black Beans,Low,2.5,3.5,2190
+2020,Kidney Beans,Medium,1.7,4.1,1265
+2020,Navy Beans,Low,2.4,2.7,1463
+2020,Pinto Beans,Medium,3.1,2.8,2190
+2020,Adzuki Beans,High,2.1,3.1,1919
+2020,Fava Beans,Low,1.5,3.0,1728
+2020,Lima Beans,High,2.7,2.3,1811
+2020,Black-eyed Peas,Low,2.8,2.3,2398
+2020,"Lentils (Red, Green, Brown)",Medium,1.6,2.2,1789
+2020,Winged Beans,Medium,2.2,2.6,1063
+2020,Hyacinth Beans,High,2.8,2.2,1028
+2020,Velvet Beans,High,2.3,1.6,2333
+2020,Sword Beans,Medium,2.8,1.6,2494
+2020,Tepary Beans,Low,2.0,2.0,2313
+2020,White Icicle Radish,High,2.5,4.4,2458
+2020,Basil,Low,3.0,2.4,2631
+2020,Parsley,Medium,2.5,1.9,1307
+2020,Cilantro,High,2.0,1.7,1695
+2020,Mint,Medium,2.9,2.1,1816
+2020,Thyme,High,1.9,3.3,1314
+2020,Rosemary,Low,2.6,3.0,1794
+2020,Sage,Low,2.5,4.0,1123
+2020,Oregano,High,1.6,1.7,1797
+2020,Dill,Medium,2.4,3.9,1731
+2020,Chives,Medium,2.5,3.7,1275
+2020,Tarragon,Low,2.9,1.6,2705
+2020,Marjoram,High,3.2,2.4,2573
+2020,Lemon Balm,Low,1.8,2.9,1538
+2020,Lovage,Medium,1.5,4.0,1921
+2020,Bay Leaves,High,2.5,2.3,1156
+2020,Chamomile,Medium,1.7,1.8,2266
+2020,Echinacea,Medium,2.1,4.1,1944
+2020,Lavender,Low,2.7,3.1,1078
+2020,Peppermint,Low,2.6,2.7,2044
+2020,Spearmint,High,3.2,3.4,1990
+2020,Catnip,Medium,2.0,1.9,2592
+2020,Feverfew,Medium,2.9,3.0,1931
+2020,Hyssop,Medium,2.9,2.3,2495
+2020,Lemon Verbena,High,2.5,3.5,1509
+2020,Stevia,High,3.5,2.2,2242
+2020,Sakurajima Radish,High,2.4,4.4,1486
+2020,Potatoes,High,3.1,1.5,1023
+2020,Sweet Potatoes,Medium,1.8,4.1,1163
+2020,Yams,High,3.5,3.2,2011
+2020,Cassava,Low,1.7,3.4,1312
+2020,Taro,High,1.9,3.2,2265
+2020,Jerusalem Artichokes,Low,2.6,1.9,1287
+2020,Ginger,Low,2.9,3.7,2793
+2020,Turmeric,High,2.4,4.4,1504
+2020,Arrowroot,Low,2.3,4.3,2172
+2020,Salsify,High,2.3,1.9,2822
+2020,Oca,High,1.9,3.1,1544
+2020,Ulluco,Low,2.4,2.1,1911
+2020,Mashua,Low,1.6,4.4,2277
+2020,Yacon,Low,3.2,1.7,1963
+2020,Maca,Medium,2.0,2.3,1776
+2020,Purple Plum,High,3.0,2.4,1419
+2020,Sunflowers,High,2.5,4.3,2301
+2020,Canola,High,3.1,2.0,1276
+2020,Flax,High,2.5,2.3,2366
+2020,Sesame,High,2.4,4.4,1373
+2020,Safflower,Low,2.5,4.0,2287
+2020,Cotton,Medium,3.3,3.2,1588
+2020,Tobacco,Medium,2.3,3.9,1081
+2020,Sugarcane,Medium,3.1,3.4,1818
+2020,Alfalfa,Low,3.5,2.2,2306
+2020,Clover,High,2.2,1.5,2407
+2020,Hemp,High,1.9,2.5,2152
+2020,Jute,High,2.0,2.5,2247
+2020,Kenaf,High,1.8,1.6,2340
+2020,Ramie,High,1.9,3.4,2383
+2020,Sisal,High,3.5,1.9,2559
+2020,Bamboo,High,1.7,3.5,2583
+2020,Bamboo Shoots,Medium,2.3,2.2,2327
+2020,Aloe Vera,Medium,1.6,1.8,1519
+2020,Agave,Low,2.6,3.4,2698
+2020,Cactus Pear,Low,1.6,2.4,2223
+2020,Quinoa,Low,2.2,2.8,2662
+2020,Chia,Medium,2.4,2.2,2051
+2020,Poppy,High,1.6,3.2,1460
+2020,Saffron,Low,3.2,2.9,2249
+2020,Vanilla,Medium,3.1,2.1,2517
+2021,Cabbage,Medium,1.9,3.6,2608
+2021,Spinach,High,3.0,3.6,1579
+2021,Carrots,High,2.8,3.2,2224
+2021,Onions,High,3.5,4.3,2836
+2021,Tomatoes,High,2.9,3.7,1290
+2021,Lettuce,Low,2.7,2.0,1482
+2021,Broccoli,High,2.7,3.9,1614
+2021,Cauliflower,High,1.8,4.3,2606
+2021,Peppers,Low,2.3,1.9,1173
+2021,Eggplant,High,3.5,2.6,1092
+2021,Zucchini,Medium,2.3,4.0,2771
+2021,Pumpkin,Medium,2.7,3.9,2677
+2021,Squash,High,2.8,4.3,1695
+2021,Radishes,High,2.5,3.1,1646
+2021,Daikon Radish,Low,2.0,3.9,2606
+2021,Turnips,Low,1.9,1.8,1100
+2021,Kale,High,2.8,3.4,1807
+2021,Swiss Chard,High,1.6,3.8,2896
+2021,Celery,Medium,1.6,1.8,1661
+2021,Leeks,High,2.6,2.8,2481
+2021,Artichokes,Low,3.0,2.2,1088
+2021,Asparagus,Medium,3.0,4.0,2502
+2021,Bok Choy,Low,1.6,3.9,1855
+2021,Brussels Sprouts,Medium,2.3,2.6,1527
+2021,Collard Greens,Low,2.4,3.4,2459
+2021,Endive,High,3.2,4.2,2799
+2021,Fennel,Low,1.7,3.5,2823
+2021,Garlic,Low,1.6,3.2,2708
+2021,Horseradish,Low,1.7,3.8,1325
+2021,Jicama,Medium,2.1,1.9,1514
+2021,Kohlrabi,Low,2.4,3.5,1553
+2021,Okra,Medium,2.2,2.4,2758
+2021,Parsnips,High,2.2,3.0,1438
+2021,Rutabaga,Medium,3.5,3.9,1548
+2021,Scallions,Low,2.2,1.9,1621
+2021,Shallots,High,2.0,1.5,1341
+2021,Snow Peas,Medium,2.2,3.3,1843
+2021,Snap Peas,Low,2.3,3.0,1206
+2021,Watercress,Low,2.2,1.6,2588
+2021,Arugula,High,1.7,2.4,2560
+2021,Mustard Greens,High,1.8,2.6,1043
+2021,Purslane,Low,2.2,4.1,1053
+2021,Sorrel,Low,2.4,1.5,1524
+2021,Tatsoi,Medium,2.3,4.2,2193
+2021,Mizuna,Low,2.0,3.4,1120
+2021,Mibuna,Low,2.9,3.5,2436
+2021,Celtuce,Low,2.2,3.5,1346
+2021,Chinese Broccoli,High,1.6,4.3,1480
+2021,Chinese Cabbage,High,1.6,3.3,2011
+2021,Napa Cabbage,Medium,2.5,2.6,1925
+2021,Amaranth Greens,Medium,2.4,3.2,2598
+2021,Malabar Spinach,Medium,3.3,3.7,2705
+2021,New Zealand Spinach,High,2.0,4.2,1564
+2021,Water Spinach,Medium,2.6,3.2,2211
+2021,Sweet Corn,Low,2.9,3.4,1553
+2021,Bulgur,High,1.7,3.9,2846
+2021,Maize,Medium,3.0,3.0,1460
+2021,Sorghum,High,3.2,3.3,2503
+2021,Wheat,High,2.2,1.7,1264
+2021,Barley,High,2.8,4.0,2151
+2021,Millet,Low,2.2,2.9,1382
+2021,Oats,High,1.5,4.5,2080
+2021,Rye,High,1.9,2.5,1766
+2021,Triticale,Low,1.5,1.9,1455
+2021,Quinoa,Low,2.1,3.0,2294
+2021,Amaranth,High,2.0,4.3,1054
+2021,Buckwheat,Medium,2.2,2.3,1785
+2021,Spelt,Low,2.9,1.9,1418
+2021,Teff,High,2.2,2.1,2845
+2021,Fonio,Medium,2.1,2.7,2474
+2021,Kañiwa,Low,2.4,2.5,1930
+2021,Job’s Tears,Medium,2.8,3.0,1226
+2021,Wild Rice,Low,3.3,4.1,2670
+2021,Einkorn,High,3.1,2.8,2601
+2021,Green Luobo,Medium,2.1,2.5,2429
+2021,Beans,Low,1.6,2.1,2556
+2021,Peas,Medium,3.5,3.3,1257
+2021,Lentils,High,2.7,1.8,1656
+2021,Chickpeas,Medium,3.3,4.1,1812
+2021,Soybeans,High,2.5,2.4,2480
+2021,Cowpeas,High,2.1,3.5,2666
+2021,Pigeon Peas,High,2.8,1.5,1887
+2021,Lupins,Medium,3.0,1.6,2272
+2021,Mung Beans,High,1.6,3.5,1585
+2021,Black Beans,Medium,3.5,2.3,1909
+2021,Kidney Beans,Medium,3.4,2.7,2763
+2021,Navy Beans,Low,2.0,3.5,1951
+2021,Pinto Beans,Medium,3.0,3.6,1146
+2021,Adzuki Beans,Low,1.6,3.9,1980
+2021,Fava Beans,High,2.7,1.9,1933
+2021,Lima Beans,High,3.2,1.6,2232
+2021,Black-eyed Peas,Low,1.6,3.6,2030
+2021,"Lentils (Red, Green, Brown)",Medium,2.7,2.9,1355
+2021,Winged Beans,Medium,2.1,2.3,2097
+2021,Hyacinth Beans,Low,2.1,1.8,2372
+2021,Velvet Beans,Medium,2.2,2.3,1053
+2021,Sword Beans,Medium,3.4,4.0,2345
+2021,Tepary Beans,Medium,2.4,1.6,2667
+2021,White Icicle Radish,Medium,2.6,2.2,2410
+2021,Basil,Low,2.4,1.6,1213
+2021,Parsley,High,3.3,1.8,2333
+2021,Cilantro,High,2.3,4.3,1379
+2021,Mint,Medium,2.1,3.1,1661
+2021,Thyme,Low,1.9,3.8,1685
+2021,Rosemary,High,2.5,2.8,2708
+2021,Sage,High,2.4,3.3,2363
+2021,Oregano,High,3.0,3.0,1356
+2021,Dill,High,3.2,3.6,2230
+2021,Chives,High,3.4,3.3,1462
+2021,Tarragon,Low,2.9,2.2,1778
+2021,Marjoram,Medium,2.6,3.0,1568
+2021,Lemon Balm,Low,2.9,2.3,2614
+2021,Lovage,Medium,3.1,4.0,1696
+2021,Bay Leaves,High,2.9,2.4,2617
+2021,Chamomile,Medium,2.3,4.2,1952
+2021,Echinacea,High,1.6,4.3,2102
+2021,Lavender,Low,2.4,3.2,1167
+2021,Peppermint,Medium,3.2,4.4,1230
+2021,Spearmint,Medium,2.5,3.8,1500
+2021,Catnip,Medium,3.3,1.6,2700
+2021,Feverfew,High,1.7,2.0,2689
+2021,Hyssop,Low,2.2,2.4,2138
+2021,Lemon Verbena,Low,2.2,1.9,1781
+2021,Stevia,High,2.8,2.2,2858
+2021,Sakurajima Radish,Medium,2.2,4.5,2120
+2021,Potatoes,High,2.4,1.9,1502
+2021,Sweet Potatoes,High,2.0,2.6,2675
+2021,Yams,Medium,3.0,2.2,2397
+2021,Cassava,Medium,3.4,2.6,2056
+2021,Taro,Medium,3.0,2.9,2846
+2021,Jerusalem Artichokes,Low,2.8,3.9,2363
+2021,Ginger,Low,3.1,3.9,1220
+2021,Turmeric,High,2.2,2.2,2275
+2021,Arrowroot,High,3.5,3.7,2226
+2021,Salsify,Low,2.0,2.5,1443
+2021,Oca,Low,3.2,2.3,2597
+2021,Ulluco,Low,2.8,4.4,1126
+2021,Mashua,Low,3.2,4.4,1771
+2021,Yacon,Low,3.3,3.8,1745
+2021,Maca,Low,3.0,3.2,1211
+2021,Purple Plum,Low,3.0,4.3,1792
+2021,Sunflowers,Low,1.5,1.7,2112
+2021,Canola,Medium,2.0,4.2,2180
+2021,Flax,Low,3.2,2.3,1724
+2021,Sesame,High,2.3,3.2,1974
+2021,Safflower,High,2.9,3.0,1244
+2021,Cotton,Low,3.3,1.9,2741
+2021,Tobacco,High,2.3,2.6,2201
+2021,Sugarcane,Low,1.7,4.3,1984
+2021,Alfalfa,High,2.0,3.7,1866
+2021,Clover,Medium,2.6,1.8,1679
+2021,Hemp,Low,3.1,2.6,1166
+2021,Jute,Medium,3.4,3.0,1764
+2021,Kenaf,Low,1.7,4.5,2039
+2021,Ramie,Medium,3.2,3.9,1392
+2021,Sisal,Low,3.1,4.1,2454
+2021,Bamboo,High,2.2,2.5,1199
+2021,Bamboo Shoots,Medium,2.2,2.3,1577
+2021,Aloe Vera,High,3.0,3.8,1123
+2021,Agave,Low,2.1,2.0,1873
+2021,Cactus Pear,Medium,2.1,2.1,1304
+2021,Quinoa,High,2.0,1.6,2419
+2021,Chia,Low,1.5,3.4,1699
+2021,Poppy,Medium,2.9,3.9,2102
+2021,Saffron,Low,2.9,2.4,2376
+2021,Vanilla,Medium,1.9,3.0,2145
+2022,Cabbage,Low,2.1,1.6,2691
+2022,Spinach,Medium,2.0,4.2,1330
+2022,Carrots,Medium,3.2,3.6,1634
+2022,Onions,Medium,3.1,2.7,1417
+2022,Tomatoes,Low,2.3,3.8,1581
+2022,Lettuce,Medium,2.9,1.6,2748
+2022,Broccoli,High,1.5,2.3,1120
+2022,Cauliflower,High,2.4,1.6,1780
+2022,Peppers,Medium,1.6,1.8,1781
+2022,Eggplant,Low,1.7,3.9,2710
+2022,Zucchini,High,1.9,2.1,2757
+2022,Pumpkin,High,3.4,3.8,1507
+2022,Squash,Low,3.3,2.6,1347
+2022,Radishes,High,3.2,2.1,1800
+2022,Daikon Radish,Medium,1.8,2.4,2872
+2022,Turnips,Medium,2.9,4.4,1025
+2022,Kale,High,2.6,3.0,2340
+2022,Swiss Chard,Low,1.7,3.2,1157
+2022,Celery,Low,2.5,4.1,1416
+2022,Leeks,Low,2.9,2.4,2844
+2022,Artichokes,Low,1.5,3.9,1680
+2022,Asparagus,Medium,2.3,3.9,2476
+2022,Bok Choy,Low,1.9,3.3,2033
+2022,Brussels Sprouts,High,2.7,3.3,1991
+2022,Collard Greens,Medium,2.0,2.0,1087
+2022,Endive,High,1.9,2.4,1842
+2022,Fennel,Low,1.8,3.0,2878
+2022,Garlic,High,3.4,2.2,1354
+2022,Horseradish,Medium,3.2,2.3,2265
+2022,Jicama,Low,1.8,2.2,1298
+2022,Kohlrabi,High,2.0,2.7,1186
+2022,Okra,Medium,1.8,4.5,2403
+2022,Parsnips,High,2.0,3.3,1846
+2022,Rutabaga,High,2.5,3.7,2713
+2022,Scallions,Medium,2.1,2.5,2558
+2022,Shallots,Medium,2.1,4.0,2198
+2022,Snow Peas,Low,1.5,3.5,1652
+2022,Snap Peas,Medium,2.7,2.5,2057
+2022,Watercress,High,3.1,2.4,1088
+2022,Arugula,High,2.2,2.2,1928
+2022,Mustard Greens,Medium,2.4,4.5,1438
+2022,Purslane,Medium,2.5,2.0,2315
+2022,Sorrel,Medium,1.6,4.2,2553
+2022,Tatsoi,Medium,1.8,3.2,2536
+2022,Mizuna,Low,3.2,2.0,1788
+2022,Mibuna,Medium,2.5,4.1,1438
+2022,Celtuce,Low,1.7,4.1,1195
+2022,Chinese Broccoli,Low,3.0,3.5,1435
+2022,Chinese Cabbage,Medium,1.6,3.2,1338
+2022,Napa Cabbage,Medium,2.9,2.6,1336
+2022,Amaranth Greens,Low,3.2,4.0,1228
+2022,Malabar Spinach,High,2.5,2.7,2454
+2022,New Zealand Spinach,Medium,3.4,4.2,2428
+2022,Water Spinach,High,2.2,2.2,1823
+2022,Sweet Corn,Low,2.7,3.9,1644
+2022,Bulgur,Medium,2.2,4.3,2337
+2022,Maize,Medium,2.2,1.9,1094
+2022,Sorghum,High,1.6,3.0,2194
+2022,Wheat,Low,2.6,1.8,1021
+2022,Barley,High,1.6,3.9,1835
+2022,Millet,Medium,2.8,2.6,2492
+2022,Oats,High,3.5,2.1,2104
+2022,Rye,Medium,3.0,4.2,2292
+2022,Triticale,Low,3.2,3.7,2077
+2022,Quinoa,High,3.1,4.4,2103
+2022,Amaranth,High,2.1,4.3,1874
+2022,Buckwheat,High,1.9,4.0,1388
+2022,Spelt,Low,1.7,4.4,1183
+2022,Teff,Medium,2.4,2.5,1946
+2022,Fonio,High,2.3,2.7,2647
+2022,Kañiwa,Low,3.3,3.0,1187
+2022,Job’s Tears,Medium,2.2,3.7,2533
+2022,Wild Rice,Low,2.7,3.2,1303
+2022,Einkorn,High,2.4,2.3,1788
+2022,Green Luobo,Low,3.1,2.0,1995
+2022,Beans,High,3.2,1.6,2680
+2022,Peas,Low,2.1,2.3,1035
+2022,Lentils,Low,2.6,1.7,2757
+2022,Chickpeas,Medium,2.1,4.2,1884
+2022,Soybeans,Low,1.9,2.3,2467
+2022,Cowpeas,High,1.9,1.7,2795
+2022,Pigeon Peas,Low,3.1,2.4,2555
+2022,Lupins,Medium,2.3,2.6,1971
+2022,Mung Beans,Low,2.2,1.7,1370
+2022,Black Beans,Medium,3.1,3.2,1504
+2022,Kidney Beans,High,1.6,3.6,2573
+2022,Navy Beans,Medium,3.1,2.8,1875
+2022,Pinto Beans,Low,2.7,1.6,1979
+2022,Adzuki Beans,High,2.3,4.0,1219
+2022,Fava Beans,High,3.1,3.2,1010
+2022,Lima Beans,Low,2.1,4.5,2376
+2022,Black-eyed Peas,Low,1.8,1.6,1907
+2022,"Lentils (Red, Green, Brown)",High,3.1,3.3,1597
+2022,Winged Beans,Medium,2.0,4.1,2247
+2022,Hyacinth Beans,High,2.3,3.6,1414
+2022,Velvet Beans,High,2.4,3.0,1327
+2022,Sword Beans,Low,3.5,3.0,1836
+2022,Tepary Beans,Low,3.2,2.2,1278
+2022,White Icicle Radish,High,3.4,3.6,1485
+2022,Basil,High,3.1,3.9,2476
+2022,Parsley,High,2.1,2.6,2656
+2022,Cilantro,Medium,3.2,4.4,1292
+2022,Mint,Low,2.9,3.3,1083
+2022,Thyme,Low,2.2,3.6,2220
+2022,Rosemary,High,3.5,4.2,2782
+2022,Sage,Medium,1.6,1.8,2674
+2022,Oregano,Medium,1.5,2.2,2780
+2022,Dill,Low,2.2,3.3,2673
+2022,Chives,High,2.6,2.3,2429
+2022,Tarragon,High,3.3,3.3,1955
+2022,Marjoram,Medium,1.8,2.1,2696
+2022,Lemon Balm,Low,2.8,1.6,1513
+2022,Lovage,High,2.5,4.2,1210
+2022,Bay Leaves,Medium,3.5,3.9,2666
+2022,Chamomile,High,3.4,2.6,2045
+2022,Echinacea,High,3.2,3.2,1079
+2022,Lavender,Medium,3.4,1.6,2373
+2022,Peppermint,High,1.5,3.3,1630
+2022,Spearmint,High,2.6,2.5,2228
+2022,Catnip,High,1.5,3.1,1357
+2022,Feverfew,High,3.4,4.0,2428
+2022,Hyssop,Medium,2.3,2.6,2823
+2022,Lemon Verbena,Medium,2.7,3.1,2349
+2022,Stevia,High,2.1,1.8,1804
+2022,Sakurajima Radish,Low,2.7,1.7,2467
+2022,Potatoes,Low,2.9,2.0,2175
+2022,Sweet Potatoes,Low,2.1,4.4,2586
+2022,Yams,Low,2.6,1.9,1960
+2022,Cassava,High,1.9,2.6,1415
+2022,Taro,High,3.3,3.2,1064
+2022,Jerusalem Artichokes,Medium,2.4,3.5,1284
+2022,Ginger,Low,2.8,4.1,1364
+2022,Turmeric,Low,1.7,4.1,2321
+2022,Arrowroot,Medium,1.9,2.5,2022
+2022,Salsify,Low,2.1,1.6,2440
+2022,Oca,High,2.1,2.3,1711
+2022,Ulluco,Low,2.0,4.5,2492
+2022,Mashua,Medium,3.0,3.6,2394
+2022,Yacon,Medium,3.3,2.4,1050
+2022,Maca,Medium,3.3,2.3,1596
+2022,Purple Plum,Low,1.8,3.4,2515
+2022,Sunflowers,Medium,2.2,1.8,2081
+2022,Canola,High,2.8,2.2,2831
+2022,Flax,High,3.3,2.8,1472
+2022,Sesame,Low,2.4,3.9,1323
+2022,Safflower,Low,1.8,4.0,1038
+2022,Cotton,High,2.3,2.6,2068
+2022,Tobacco,Medium,2.8,3.7,1292
+2022,Sugarcane,Low,3.3,3.6,1494
+2022,Alfalfa,Low,1.9,2.5,2189
+2022,Clover,Low,2.1,3.4,1943
+2022,Hemp,Medium,2.4,4.3,1426
+2022,Jute,Medium,3.1,1.8,2057
+2022,Kenaf,Medium,2.2,2.6,2265
+2022,Ramie,Low,2.6,2.2,2009
+2022,Sisal,Low,2.0,4.1,2855
+2022,Bamboo,Low,3.3,4.1,1680
+2022,Bamboo Shoots,Low,3.4,2.9,1525
+2022,Aloe Vera,Low,3.0,2.2,1548
+2022,Agave,Medium,3.4,4.0,2309
+2022,Cactus Pear,Low,2.1,4.0,1829
+2022,Quinoa,Low,3.2,1.7,2706
+2022,Chia,Medium,2.0,4.2,2239
+2022,Poppy,High,3.2,2.8,1742
+2022,Saffron,High,1.7,4.5,2663
+2022,Vanilla,High,3.0,3.7,2533
+2023,Cabbage,Medium,2.0,3.0,1612
+2023,Spinach,Low,1.7,3.0,2622
+2023,Carrots,Medium,2.6,1.9,1992
+2023,Onions,Medium,2.5,3.8,2120
+2023,Tomatoes,Low,2.8,3.5,1601
+2023,Lettuce,Medium,3.0,1.8,2617
+2023,Broccoli,High,3.3,3.8,2015
+2023,Cauliflower,Medium,2.5,3.3,1863
+2023,Peppers,High,2.8,1.9,2814
+2023,Eggplant,High,3.2,3.9,1235
+2023,Zucchini,Low,2.7,4.0,1965
+2023,Pumpkin,Low,2.7,2.2,1489
+2023,Squash,Low,2.8,2.8,2696
+2023,Radishes,High,3.0,3.2,1865
+2023,Daikon Radish,Medium,1.8,3.1,2094
+2023,Turnips,Low,2.7,1.8,1487
+2023,Kale,Medium,1.8,3.2,2452
+2023,Swiss Chard,High,3.5,2.6,1816
+2023,Celery,Low,2.3,3.3,1339
+2023,Leeks,Medium,2.5,3.5,1421
+2023,Artichokes,Low,1.9,3.2,2720
+2023,Asparagus,Low,3.2,3.8,2054
+2023,Bok Choy,Medium,2.6,3.7,1107
+2023,Brussels Sprouts,Medium,2.6,4.2,1876
+2023,Collard Greens,Low,3.1,1.6,1591
+2023,Endive,Medium,2.7,2.4,2110
+2023,Fennel,Low,1.8,2.0,1052
+2023,Garlic,Low,3.0,2.4,2640
+2023,Horseradish,Low,1.5,4.2,1522
+2023,Jicama,Medium,1.9,2.8,1492
+2023,Kohlrabi,High,1.6,2.8,1536
+2023,Okra,Medium,2.9,2.0,1059
+2023,Parsnips,High,2.6,3.1,2080
+2023,Rutabaga,High,2.4,1.6,2247
+2023,Scallions,High,2.9,3.3,2760
+2023,Shallots,Low,3.4,1.8,2311
+2023,Snow Peas,Medium,1.9,4.4,2121
+2023,Snap Peas,High,3.3,3.2,2354
+2023,Watercress,High,2.3,4.2,1532
+2023,Arugula,Low,2.4,4.2,1971
+2023,Mustard Greens,Low,1.8,1.5,1833
+2023,Purslane,Low,2.2,4.1,1403
+2023,Sorrel,Low,3.2,1.9,1905
+2023,Tatsoi,High,1.7,2.3,2659
+2023,Mizuna,High,2.6,3.1,1931
+2023,Mibuna,Low,1.6,4.5,1648
+2023,Celtuce,Medium,3.3,3.2,1821
+2023,Chinese Broccoli,Medium,2.7,2.6,2581
+2023,Chinese Cabbage,Low,2.6,2.1,2764
+2023,Napa Cabbage,Low,2.4,4.0,1619
+2023,Amaranth Greens,Low,3.2,4.0,1570
+2023,Malabar Spinach,High,3.1,4.0,1289
+2023,New Zealand Spinach,Medium,3.1,3.4,1126
+2023,Water Spinach,High,1.5,2.0,2425
+2023,Sweet Corn,Low,1.7,1.8,2305
+2023,Bulgur,Low,2.9,3.5,1517
+2023,Maize,Low,1.9,3.8,1151
+2023,Sorghum,High,3.2,3.6,2426
+2023,Wheat,High,2.7,2.6,2676
+2023,Barley,High,2.0,2.6,2131
+2023,Millet,Medium,2.0,1.9,2007
+2023,Oats,High,1.5,2.7,2163
+2023,Rye,Medium,3.3,4.1,1678
+2023,Triticale,High,2.5,3.1,1124
+2023,Quinoa,Low,3.2,4.2,2510
+2023,Amaranth,High,1.7,1.7,1730
+2023,Buckwheat,Low,3.4,2.0,1761
+2023,Spelt,Medium,1.7,3.0,1440
+2023,Teff,High,1.6,2.3,2368
+2023,Fonio,Low,2.9,4.2,1166
+2023,Kañiwa,Low,2.6,2.1,1449
+2023,Job’s Tears,Low,2.6,2.9,1298
+2023,Wild Rice,Medium,2.8,3.1,2073
+2023,Einkorn,High,2.4,2.7,2250
+2023,Green Luobo,Low,3.2,3.4,1324
+2023,Beans,Low,1.5,3.0,1529
+2023,Peas,Low,2.8,3.7,1758
+2023,Lentils,Low,2.5,1.8,2485
+2023,Chickpeas,Medium,2.5,2.2,1162
+2023,Soybeans,Low,3.1,4.3,2802
+2023,Cowpeas,High,2.2,3.2,1104
+2023,Pigeon Peas,High,2.1,4.4,2193
+2023,Lupins,Low,2.0,3.3,1218
+2023,Mung Beans,Medium,1.7,2.5,2469
+2023,Black Beans,Low,2.2,3.8,1834
+2023,Kidney Beans,Low,2.7,2.8,1422
+2023,Navy Beans,Medium,3.4,1.8,1458
+2023,Pinto Beans,Low,3.0,3.6,1885
+2023,Adzuki Beans,High,2.6,4.0,1966
+2023,Fava Beans,High,2.8,2.0,1988
+2023,Lima Beans,Low,1.9,4.2,2801
+2023,Black-eyed Peas,High,3.3,4.4,1893
+2023,"Lentils (Red, Green, Brown)",Low,2.5,1.6,1623
+2023,Winged Beans,Medium,1.5,3.7,1973
+2023,Hyacinth Beans,Medium,1.8,2.0,1803
+2023,Velvet Beans,Low,3.0,2.8,1594
+2023,Sword Beans,Medium,2.1,2.7,2798
+2023,Tepary Beans,Low,3.4,3.4,2846
+2023,White Icicle Radish,Low,3.1,2.5,2221
+2023,Basil,High,2.1,3.4,2323
+2023,Parsley,Low,2.7,3.7,1311
+2023,Cilantro,Medium,2.4,4.5,1184
+2023,Mint,Low,2.3,2.5,1754
+2023,Thyme,Low,1.9,2.7,1531
+2023,Rosemary,Medium,1.8,1.6,2233
+2023,Sage,High,2.0,3.1,1749
+2023,Oregano,Medium,2.0,3.5,1235
+2023,Dill,Medium,2.1,3.7,1384
+2023,Chives,High,2.5,2.6,1004
+2023,Tarragon,High,3.4,1.6,1959
+2023,Marjoram,High,2.1,2.7,1497
+2023,Lemon Balm,Medium,3.2,1.5,2384
+2023,Lovage,Low,3.2,2.8,1054
+2023,Bay Leaves,Low,1.5,4.0,2891
+2023,Chamomile,Low,3.0,2.4,1098
+2023,Echinacea,High,2.6,2.3,1926
+2023,Lavender,Low,1.6,3.6,2893
+2023,Peppermint,Medium,3.1,3.4,1353
+2023,Spearmint,Low,2.2,2.7,1201
+2023,Catnip,Low,2.1,3.8,2434
+2023,Feverfew,Medium,2.6,2.9,2644
+2023,Hyssop,High,2.6,3.1,2616
+2023,Lemon Verbena,Medium,2.1,1.8,1945
+2023,Stevia,High,2.6,2.1,2054
+2023,Sakurajima Radish,High,2.5,3.0,2690
+2023,Potatoes,High,3.4,2.6,1364
+2023,Sweet Potatoes,Medium,1.6,2.1,1394
+2023,Yams,Low,3.3,2.0,2163
+2023,Cassava,High,1.8,2.4,2571
+2023,Taro,Low,1.5,2.7,1177
+2023,Jerusalem Artichokes,Medium,1.7,2.5,1007
+2023,Ginger,Medium,2.2,1.8,2102
+2023,Turmeric,Medium,2.6,3.4,1292
+2023,Arrowroot,Low,3.5,2.9,1482
+2023,Salsify,Medium,3.2,1.7,1793
+2023,Oca,High,2.9,4.0,1270
+2023,Ulluco,Medium,2.4,1.8,2770
+2023,Mashua,Low,2.4,1.8,2536
+2023,Yacon,Low,3.0,2.4,1252
+2023,Maca,Low,2.4,2.8,2670
+2023,Purple Plum,High,2.8,4.3,1964
+2023,Sunflowers,Medium,2.3,3.4,2062
+2023,Canola,High,1.9,1.7,2499
+2023,Flax,High,2.2,1.7,1239
+2023,Sesame,High,2.8,3.9,1001
+2023,Safflower,Low,1.7,4.4,1987
+2023,Cotton,High,2.9,3.0,2458
+2023,Tobacco,Medium,1.7,3.8,1202
+2023,Sugarcane,Medium,3.3,3.5,1786
+2023,Alfalfa,Medium,1.8,2.1,1290
+2023,Clover,High,3.3,4.1,2588
+2023,Hemp,High,3.5,2.0,1079
+2023,Jute,Medium,2.4,2.5,1931
+2023,Kenaf,Low,3.3,4.3,2550
+2023,Ramie,High,3.3,4.4,2609
+2023,Sisal,Low,3.0,2.7,2311
+2023,Bamboo,Low,3.2,3.4,2600
+2023,Bamboo Shoots,High,3.2,3.0,1430
+2023,Aloe Vera,Medium,2.6,3.6,1220
+2023,Agave,Low,3.4,1.9,1769
+2023,Cactus Pear,Medium,3.5,4.0,1102
+2023,Quinoa,High,2.5,2.3,1523
+2023,Chia,High,3.2,3.9,2002
+2023,Poppy,Low,3.4,2.7,2640
+2023,Saffron,High,2.3,2.1,1985
+2023,Vanilla,High,2.6,2.8,1595
+2024,Cabbage,Medium,2.1,3.7,2220
+2024,Spinach,Medium,2.5,4.4,2552
+2024,Carrots,Medium,3.4,4.2,1783
+2024,Onions,Medium,2.1,3.5,1667
+2024,Tomatoes,Low,1.9,4.2,2261
+2024,Lettuce,Low,2.1,2.2,2632
+2024,Broccoli,Medium,2.2,1.9,1139
+2024,Cauliflower,High,2.8,4.1,2432
+2024,Peppers,High,1.8,4.5,2511
+2024,Eggplant,Medium,3.1,3.5,1103
+2024,Zucchini,High,3.4,4.1,1172
+2024,Pumpkin,Low,1.9,3.2,1961
+2024,Squash,Low,2.9,3.2,1953
+2024,Radishes,Medium,3.3,2.0,1292
+2024,Daikon Radish,Low,3.4,4.3,1295
+2024,Turnips,Medium,1.8,3.4,2616
+2024,Kale,Medium,1.8,2.6,1420
+2024,Swiss Chard,Low,3.0,2.8,2547
+2024,Celery,Medium,1.7,2.8,2512
+2024,Leeks,High,1.9,3.2,1586
+2024,Artichokes,Low,1.9,1.8,2049
+2024,Asparagus,Low,3.4,1.7,2894
+2024,Bok Choy,Medium,1.9,1.9,2022
+2024,Brussels Sprouts,Low,2.7,2.3,2433
+2024,Collard Greens,Medium,3.2,3.7,1095
+2024,Endive,High,3.1,4.1,2713
+2024,Fennel,Low,1.8,4.2,2254
+2024,Garlic,Medium,3.0,2.4,2745
+2024,Horseradish,Medium,1.9,3.1,2630
+2024,Jicama,Medium,2.8,2.1,2042
+2024,Kohlrabi,Medium,2.2,3.5,2639
+2024,Okra,Low,3.2,3.5,2198
+2024,Parsnips,Medium,3.2,1.9,2027
+2024,Rutabaga,Medium,3.0,3.6,1935
+2024,Scallions,Medium,1.9,2.4,2845
+2024,Shallots,Low,3.0,2.4,2253
+2024,Snow Peas,Low,2.6,1.8,1134
+2024,Snap Peas,Medium,2.2,4.5,1502
+2024,Watercress,Medium,3.4,3.2,2212
+2024,Arugula,High,3.3,3.0,2085
+2024,Mustard Greens,Low,2.7,3.3,2297
+2024,Purslane,High,2.7,2.4,2646
+2024,Sorrel,High,2.7,3.8,1917
+2024,Tatsoi,High,3.3,3.8,1623
+2024,Mizuna,Medium,2.9,4.4,2719
+2024,Mibuna,High,1.7,3.6,2438
+2024,Celtuce,High,3.2,1.8,1468
+2024,Chinese Broccoli,Medium,3.5,1.9,1501
+2024,Chinese Cabbage,High,2.2,3.1,2057
+2024,Napa Cabbage,Low,1.9,4.1,2664
+2024,Amaranth Greens,Medium,2.7,2.1,1523
+2024,Malabar Spinach,Medium,2.2,1.6,2359
+2024,New Zealand Spinach,High,2.7,3.6,2089
+2024,Water Spinach,Medium,2.1,3.1,2045
+2024,Sweet Corn,Low,2.3,4.3,2692
+2024,Bulgur,Medium,3.2,1.6,1802
+2024,Maize,Medium,3.0,3.7,1375
+2024,Sorghum,High,2.3,1.8,1436
+2024,Wheat,Low,3.3,4.4,1258
+2024,Barley,Low,3.2,2.6,2313
+2024,Millet,Medium,3.2,3.3,1597
+2024,Oats,High,2.5,3.2,1642
+2024,Rye,High,2.5,3.7,2029
+2024,Triticale,Low,1.6,1.6,2184
+2024,Quinoa,Low,1.6,2.8,2867
+2024,Amaranth,Low,2.5,3.2,1365
+2024,Buckwheat,High,2.4,2.4,1373
+2024,Spelt,High,2.8,2.4,1910
+2024,Teff,High,2.7,1.7,1566
+2024,Fonio,Low,3.4,1.9,1791
+2024,Kañiwa,Low,3.5,2.8,2524
+2024,Job’s Tears,High,2.5,2.3,2111
+2024,Wild Rice,High,3.0,3.0,2307
+2024,Einkorn,Low,3.2,4.1,1056
+2024,Green Luobo,Low,2.7,2.8,2120
+2024,Beans,Low,2.4,2.0,2620
+2024,Peas,Medium,3.0,4.4,1748
+2024,Lentils,Medium,3.1,4.2,1534
+2024,Chickpeas,High,3.2,2.4,1755
+2024,Soybeans,Medium,2.9,3.0,1052
+2024,Cowpeas,Medium,2.5,3.7,2012
+2024,Pigeon Peas,Low,2.7,4.2,2614
+2024,Lupins,Medium,2.8,1.8,2559
+2024,Mung Beans,High,3.3,2.3,2590
+2024,Black Beans,Low,3.4,3.0,2799
+2024,Kidney Beans,Low,2.1,2.9,2509
+2024,Navy Beans,Medium,2.6,4.0,2861
+2024,Pinto Beans,Medium,1.8,2.5,2553
+2024,Adzuki Beans,Low,2.7,3.8,1732
+2024,Fava Beans,High,1.6,3.2,1775
+2024,Lima Beans,High,3.0,2.2,2588
+2024,Black-eyed Peas,High,2.7,4.5,1973
+2024,"Lentils (Red, Green, Brown)",Low,2.6,3.3,1353
+2024,Winged Beans,Low,2.4,2.4,2116
+2024,Hyacinth Beans,High,3.5,3.0,2288
+2024,Velvet Beans,Low,2.5,3.1,1700
+2024,Sword Beans,Low,2.9,3.8,1966
+2024,Tepary Beans,High,3.5,1.6,1235
+2024,White Icicle Radish,Low,2.9,3.8,1129
+2024,Basil,High,3.0,2.8,2780
+2024,Parsley,Medium,1.9,4.5,1705
+2024,Cilantro,High,1.6,3.2,2121
+2024,Mint,High,2.1,2.7,1188
+2024,Thyme,Low,1.8,3.1,1366
+2024,Rosemary,Medium,3.0,3.3,2595
+2024,Sage,Medium,3.0,3.7,1505
+2024,Oregano,Medium,1.5,2.7,1705
+2024,Dill,Medium,2.1,2.6,2578
+2024,Chives,Low,1.7,3.6,2394
+2024,Tarragon,High,3.0,4.4,2597
+2024,Marjoram,Low,2.6,3.6,2551
+2024,Lemon Balm,High,1.6,3.4,1485
+2024,Lovage,Low,3.1,4.0,1867
+2024,Bay Leaves,High,2.8,2.7,2250
+2024,Chamomile,High,1.5,3.6,2241
+2024,Echinacea,High,2.1,4.3,1748
+2024,Lavender,Medium,2.3,4.1,1801
+2024,Peppermint,Medium,1.6,2.9,1696
+2024,Spearmint,High,2.6,4.0,1073
+2024,Catnip,High,3.5,3.2,2872
+2024,Feverfew,Medium,2.8,3.1,1909
+2024,Hyssop,High,3.3,1.8,1473
+2024,Lemon Verbena,Medium,2.7,2.2,2330
+2024,Stevia,High,2.5,4.3,2241
+2024,Sakurajima Radish,Low,1.9,2.6,2562
+2024,Potatoes,Low,2.8,1.7,2367
+2024,Sweet Potatoes,Medium,2.4,3.3,1360
+2024,Yams,Medium,2.2,3.4,2435
+2024,Cassava,High,3.3,3.3,2766
+2024,Taro,Medium,2.6,3.2,1929
+2024,Jerusalem Artichokes,Medium,2.5,2.2,2858
+2024,Ginger,High,2.0,2.4,2701
+2024,Turmeric,High,3.1,3.5,2147
+2024,Arrowroot,Medium,1.6,2.6,1587
+2024,Salsify,Low,1.6,3.4,2414
+2024,Oca,Low,2.8,2.0,2448
+2024,Ulluco,High,3.4,4.3,1533
+2024,Mashua,High,3.0,4.1,2022
+2024,Yacon,Medium,2.3,2.1,2799
+2024,Maca,Low,1.5,2.6,2279
+2024,Purple Plum,Low,2.9,2.3,2299
+2024,Sunflowers,Low,1.8,3.0,1527
+2024,Canola,High,2.4,3.1,2674
+2024,Flax,Medium,1.8,4.1,1404
+2024,Sesame,Low,3.5,2.4,2889
+2024,Safflower,Medium,1.9,2.0,2757
+2024,Cotton,High,2.9,2.6,1588
+2024,Tobacco,Low,2.9,4.1,2887
+2024,Sugarcane,High,1.7,1.9,1251
+2024,Alfalfa,High,2.9,2.8,1191
+2024,Clover,High,2.7,3.2,1985
+2024,Hemp,Low,1.8,3.7,1730
+2024,Jute,Low,3.4,3.1,1829
+2024,Kenaf,Medium,2.7,2.6,2714
+2024,Ramie,Medium,3.1,4.1,1233
+2024,Sisal,High,2.4,2.6,1442
+2024,Bamboo,Low,2.2,3.4,1560
+2024,Bamboo Shoots,Low,2.1,3.8,2232
+2024,Aloe Vera,High,2.9,4.0,1616
+2024,Agave,Medium,2.0,2.5,1137
+2024,Cactus Pear,Medium,1.5,2.8,2213
+2024,Quinoa,High,2.1,1.7,1676
+2024,Chia,Medium,1.8,2.8,1413
+2024,Poppy,High,1.7,2.8,1049
+2024,Saffron,Medium,1.7,4.0,2278
+2024,Vanilla,Low,2.1,4.0,1714
