@@ -192,6 +192,7 @@ def GatherFeatures(page: ft.Page):
         try:
             # Proceed with long-running tasks
             city, lat, lon = await Location.get_city_and_village()
+            
             model_data = ModelData.ModelData(city, lat, lon, float(ph.value), int(soil_type.value))
             await model_data.getModelData()
 

@@ -1,8 +1,11 @@
 import flet as ft
+from constants import constants
+width = 180
+height = 230
 
+boxbgcolor = "#8FAA97"
 def CropInfo(page:ft.Page,margin,changes):
-    width = 180
-    height = 230
+    
     body = ft.Row(
         [   
             
@@ -10,44 +13,45 @@ def CropInfo(page:ft.Page,margin,changes):
                 border_radius=15,
                 width=width,
                 height=height,
-                bgcolor=ft.colors.GREEN_400,
+                bgcolor=boxbgcolor,
                 content=ft.Column(
                     [   ft.Container(height=10),
                         ft.Container(
                             margin=ft.margin.only(left=20),
-                            content=ft.Text("Estimate Margin",size=18),
+                            content=ft.Text("Estimate Margin",size=18,color=ft.colors.GREEN_900),
                             ),
                         ft.Container(
                             height=120,
                             margin=ft.margin.only(left=15),
-                            content=ft.Image('https://i.ibb.co/MC1ZDfg/sad.png'),
+                            content=ft.Image(constants.iconUp if margin>50 else constants.iconDown),
                             ),
                        ft.Container(
                             margin=ft.margin.only(left=20),
-                            content=ft.Text(f"{margin}%",size=18),
+                            content=ft.Text(f"{margin:.2f}%",size=18,color=ft.colors.GREEN_900),
                             ),
                     ]
                 )
                 ),
+            
             ft.Container(
                 border_radius=15,
                 width=width,
                 height=height,
-                bgcolor=ft.colors.GREEN_400,
+                bgcolor=boxbgcolor,
                 content=ft.Column(
                     [   ft.Container(height=10),
                         ft.Container(
                             margin=ft.margin.only(left=20),
-                            content=ft.Text("Chances",size=18),
+                            content=ft.Text("Chances",size=18,color=ft.colors.GREEN_900),
                             ),
                         ft.Container(
                             height=120,
                             margin=ft.margin.only(left=15),
-                            content=ft.Image('https://i.ibb.co/MC1ZDfg/sad.png'),
+                            content=ft.Image(constants.iconUp if changes>50 else constants.iconDown),
                             ),
                        ft.Container(
                             margin=ft.margin.only(left=20),
-                            content=ft.Text(f"{changes}%",size=18),
+                            content=ft.Text(f"{changes:.2f}%",size=18,color=ft.colors.GREEN_900),
                             ),
                     ]
                 )
@@ -60,3 +64,29 @@ def CropInfo(page:ft.Page,margin,changes):
         width=370,
     )
     return body
+
+
+def buildChanges(value):
+    return ft.Container(
+                border_radius=15,
+                width=width,
+                height=height,
+                bgcolor=boxbgcolor,
+                content=ft.Column(
+                    [   ft.Container(height=10),
+                        ft.Container(
+                            margin=ft.margin.only(left=20),
+                            content=ft.Text("Chances",size=18,color=ft.colors.GREEN_900),
+                            ),
+                        ft.Container(
+                            height=120,
+                            margin=ft.margin.only(left=15),
+                            content=ft.Image(constants.iconUp if value>50 else constants.iconDown),
+                            ),
+                       ft.Container(
+                            margin=ft.margin.only(left=20),
+                            content=ft.Text(f"{value:.2f}%",size=18,color=ft.colors.GREEN_900),
+                            ),
+                    ]
+                )
+                )

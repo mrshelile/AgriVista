@@ -1,6 +1,7 @@
 import flet as ft
 # https://i.ibb.co/5jwXSDf/Spinach.jpg
 def TopHeader(page:ft.Page,image):
+    
     body = ft.Container(
         # image_src="",
         # bgcolor=ft.colors.BLUE_300,

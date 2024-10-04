@@ -2,6 +2,7 @@ import flet as ft
 from app.Results.MarketAnalysis.MarketAnalysis import MarketAnalysis
 from app.Results.ListDisplay.ListDisplay import ListDisplay
 from app.Results.News.News import  News
+
 def home(page: ft.Page):
     values = list(page.session.get("top_3_crops"))
     page_number = 1

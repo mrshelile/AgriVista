@@ -2,6 +2,8 @@ import flet as ft
 from app.Results.ListDisplay.components.TopHeader import TopHeader
 from app.Results.ListDisplay.components.CropInfo import CropInfo
 from constants.crops import cropsImage
+from app.Results.ListDisplay.components.CropInfo import buildChanges
+from constants import constants
 
 def ListDisplay(page:ft.Page,values):
     cleaned_data = []
@@ -23,19 +25,52 @@ def ListDisplay(page:ft.Page,values):
                 "link": crops_dict[name],
                 "probability": probability*100
             })
-    print(merged_result)
+    
+    selected_crop =  merged_result[0]    
+    def onSelected(e):
+        nonlocal selected_crop
+        for crop in merged_result:
+        
+            if crop['name'].lower() == e.data.lower():
+                selected_crop = crop
+                break
+        # print(selected_crop)
+        crop_name.value ="Predicted Crop:" + e.data
+        top.content = ft.Image(
+            fit=ft.ImageFit.COVER,
+            src=selected_crop['link'])
+        
+        print(cropInfo.content.controls[0])
+        cropInfo.content.controls[1] = buildChanges(
+            value=selected_crop['probability']
+            )
+        page.update()
+        
+    crop_name = ft.Text(
+                #    "Predicted Crop: Spinach",
+                    f"Predicted Crop: {selected_crop['name']}",
+                   color=ft.colors.BLACK,
+                   size=20) 
+    # top = TopHeader(page,selected_crop['link'])
+    top = ft.Container(
+        # image_src="",
+        # bgcolor=ft.colors.BLUE_300,
+        width=350,
+        height=300,
+        border_radius=ft.border_radius.only(40,40,0,0),
+        content=ft.Image(
+            fit=ft.ImageFit.COVER,
+            src=selected_crop['link'])
+        )
+    cropInfo =  CropInfo(page,margin=10,changes=merged_result[0]['probability'])
     body = ft.Column(
             [   ft.Container(height=30),
-                TopHeader(page,merged_result[0]['link']),
-               ft.Text(
-                #    "Predicted Crop: Spinach",
-                    f"Predicted Crop: {merged_result[0]['name']}",
-                   color=ft.colors.BLACK,
-                   size=20),
+                top,
+               crop_name,
                     #    ft.dropdown.Option("Spinach", "Spinach"),
                     #     ft.dropdown.Option("Maize", "Maize"),
                ft.Dropdown(
-                   
+                    on_change=onSelected,
                     options=[ft.dropdown.Option(crop['name'],crop['name']) for crop in merged_result],
                     
                     label="Choose Best Predicted Crops",
@@ -50,7 +85,7 @@ def ListDisplay(page:ft.Page,values):
                     prefix_icon=ft.icons.AGRICULTURE, 
                     # focused_bgcolor=ft.colors.BLUE_100,
                 ),
-               CropInfo(page,margin=10,changes=merged_result[0]['probability']),
+              cropInfo,
                
             ]
         )
