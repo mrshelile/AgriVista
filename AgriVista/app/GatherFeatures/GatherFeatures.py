@@ -157,11 +157,13 @@ from utils import Location
 from utils import ModelData
 from constants import constants
 import asyncio
+from model.marketPrediction import MarketModel
 
 def GatherFeatures(page: ft.Page):
     isLoading = ft.Ref()  # No need to pass a type, just initialize as ft.Ref()
     isLoading.current = False  # Initialize loading state as False
-
+    cropMarket = MarketModel()
+    
 # Loading spinner
     loading_spinner = ft.ProgressRing(
         width=25,
@@ -184,6 +186,7 @@ def GatherFeatures(page: ft.Page):
     
  
     async def evalutate(e):
+        nonlocal cropMarket
         isLoading.current = True  # Set loading state to True
         page.update()  # Trigger UI update to show loading
 
@@ -199,10 +202,11 @@ def GatherFeatures(page: ft.Page):
             model = CropPrediction()
             await model.load_model()
             await model.make_prediction(model_data.conditions)
-
-            if model.top_3_crops:
-                page.session.set("top_3_crops", model.top_3_crops)
-                page.go("/home")
+            
+            await cropMarket.load_model()
+            # if model.top_3_crops:
+            #     page.session.set("top_3_crops", model.top_3_crops)
+            #     page.go("/home")
         except Exception as e:
             print(f"Error during evaluation: {e}")
         finally:

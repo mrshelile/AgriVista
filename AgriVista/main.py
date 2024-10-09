@@ -25,6 +25,7 @@ def main(page: ft.Page):
                     bgcolor=ft.colors.WHITE
                 )
             )
+        
         if page.route == "/home":
             page.views.append(
                 ft.View(
